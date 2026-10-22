@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚲🚲 Pedir presupuesto🚲🚲 </title>
+    <link rel="stylesheet" href="CSS/formulario.css">
+</head>
+<body>
+  
+        <form action="https://api.web3forms.com/submit" method="POST">   
+          <input type="hidden" name="access_key" value="3a654fc1-aec9-4737-a7e5-5ba097cfbb52">
+  <h2>PEDIR PRESUPUESTO</h2>
+  <div class="grupo">
+    <label for="nombre">NOMBRE</label>
+    <input type="text" id="nombre" name="nombre" placeholder="NOMBRE Y APELLIDOS" required>
+  </div>
+  <div class="grupo">
+    <label for="telefono">TELEFONO </label>
+    <input type="tel" id="telefono" name="telefono" placeholder="TELEFONO" title="tu numero de telefono" required>
+  </div>
+  <div class="grupo">
+    <label for="mensaje">PIDE PRESUPUESTO PARA<span class="nota">(máx. 200 palabras)</span></label>
+    <textarea id="mensaje" name="mensaje" rows="6" maxlength="1200" placeholder="Escribe que necesitas (máximo 200 palabras)..." required></textarea>
+  </div>
+  <button type="submit" class="btn-enviar">Solicitar Presupuesto</button>
+</form>
+ </div>
+   <div class="copy-vertical">
+  <p>&copy; 2026 — Eli, Rubén &amp; Luis. Todos los derechos reservados.</p>
+</div>
+</body>
+</html>

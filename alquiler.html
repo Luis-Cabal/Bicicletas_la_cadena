@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚲🚲 ALQUILER LA CADENA 🚲🚲</title>
+    <link rel="stylesheet" href="css/alquiler.css">
+    <link rel="stylesheet" href="css/comun.css">
+</head>
+
+<body>
+    <header class="cabecera">
+        <img src="imagenes/banertaller.jpg" title="tallerbicicletas" alt="taller bicis alquiler rosendo" class="banner">
+     
+        <nav class="menu-navegacion">
+            <div class="redes"> 
+                <a href="https://wa.me/600000000?text=Hola" target="_blank"><img src="imagenes/whatsapp.png" alt="whatsapp_bici" class="whatsaap"></a>
+                <a href="https://www.instagram.com/lacadena.bicis/" target="_blank"><img src="imagenes/instagram.png" alt="instagram" class="instagram"></a>
+            </div>
+            <div class="button">
+                <a href="formulario.html" style="text-decoration: none;">
+                <button type="button" class="btn-presupuesto">PIDE PRESUPUESTO SIN LLAMAR</button></a>
+            </div>
+            <div class="enlaces">
+                <a href="index.html"><img src="imagenes/inicio.png" alt="Inicio" class="icono inicio"></a>
+                <a href="taller.html" target="_blank"><img src="imagenes/taller.png" alt="Taller" class="icono taller"></a>
+                <a href="#" target="_blank"><img src="imagenes/alquiler.png" alt="Alquiler" class="icono alquiler"></a>
+                <a href="contacto.html" target="_blank"><img src="imagenes/contactos.png" alt="Contactos" class="icono contactos"></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- PARTE SUPERIOR de la página: navegador, introducción -->
+    <article class="alq-superior">
+        <div>
+            <h1>BICICLETAS</h1>
+            <p>
+                Bicicletas de Alto Rendimiento y Modelos Premium
+                Descubre una amplia selección de bicicletas de carretera, montaña, gravel y modelos especializados de
+                las mejores marcas como Specialized, Orbea, Scott, Cannondale, Cube, Santa Cruz y Trek. Encuentra bicicletas
+                de alto rendimiento con ofertas especiales, pensadas para ciclistas que buscan calidad, tecnología y
+                prestaciones excepcionales.
+            </p>
+        </div>
+    </article>
+
+    <!-- PARTE MEDIA de la página: filtro y fichas -->
+    <article class="alq-media">
+        <div>
+            <label>BICICLETAS 🡆 </label>
+            <div>
+                <button id="btnTodos" class="filtro">Todos</button>
+                <button id="btnElectrica" class="filtro">Eléctrica</button>
+                <button id="btnMontana" class="filtro">Montaña</button>
+                <button id="btnUrbana" class="filtro">Urbana</button>
+            </div>
+        </div>
+
+        <div class="productos-grid">
+            <!-- Producto 1: Montaña -->
+            <div class="producto montana ficha" id="">
+                <div>
+                    <span class="promo">Casco y candado incluidos</span>
+                    <img src="imagenes/producto-casco.jpg" alt="Bici Montaña Giant">
+                </div>
+                <div>
+                    <p class="title">Bici Montaña : Giant 29″ – ANTHEM ADVANCED SL 0 2027</p>
+                    <p class="precio">12€ <span>/por día</span></p>
+                    <p>Lapierre XR 10.9 – 29″ Bicicleta de montaña de carbono – 2027 – translucent hex blue Lapierre XR 10.9 – Diseñado para el campo a través. El cross-country ha experimentado una transformación fundamental en los últimos años.</p>
+                </div>
+            </div>
+
+            <!-- Producto 2: Eléctrica -->
+            <div class="producto electrica ficha" id="">
+                <div>
+                    <span class="promo">Casco y candado incluidos</span>
+                    <img src="imagenes/Engwe-imagen.jpg" alt="ENGWE L20 3.0 Pro">
+                </div>
+                <div>
+                    <p class="title">ENGWE L20 3.0 Pro Bicicleta eléctrica para Adultos</p>
+                    <p class="precio">12€ <span>/por día</span></p>
+                    <p>Cargador Rápido de 8A, Tarda Solo 2 horas, Batería de 48V 15Ah con una Hasta 160KM, APP y IoT con sensor de par</p>
+                </div>
+            </div>
+
+            <!-- Producto 3: Urbana -->
+            <div class="producto urbana ficha" id="">
+                <div>
+                    <span class="promo">Casco y candado incluidos</span>
+                    <img src="imagenes/baby-bici.jpg" alt="Sun baby Heart Bike">
+                </div>
+                <div>
+                    <p class="title">Sun baby Heart Bike Bicicleta Infantil 20 Pulgadas 6 Velocidades</p>
+                    <p class="precio">12€ <span>/por día</span></p>
+                    <p>7 MARCHAS SHIMANO 🚴‍♀️ Equipada con un sistema de 7 velocidades con puño giratorio, la Heart Bike permite cambiar de marcha fácilmente, lo que es perfecto para diferentes rutas y terrenos. El niño puede cambiar de marcha sin necesidad de detenerse, haciendo que la conducción sea más dinámica y agradable.</p>
+                </div>
+            </div>
+
+            <!-- Producto 4: Montaña / Infantil -->
+            <div class="producto montana ficha" id="">
+                <div>
+                    <span class="promo">Casco y candado incluidos</span>
+                    <img src="imagenes/baby-bici.jpg" alt="Sun baby Heart Bike">
+                </div>
+                <div>
+                    <p class="title">Sun baby Heart Bike Bicicleta Infantil 20 Pulgadas 6 Velocidades</p>
+                    <p class="precio">12€ <span>/por día</span></p>
+                    <p>7 MARCHAS SHIMANO 🚴‍♀️ Equipada con un sistema de 7 velocidades con puño giratorio, la Heart Bike permite cambiar de marcha fácilmente, lo que es perfecto para diferentes rutas y terrenos. El niño puede cambiar de marcha sin necesidad de detenerse, haciendo que la conducción sea más dinámica y agradable.</p>
+                </div>
+            </div>
+
+            <!-- Producto 5: Eléctrica -->
+            <div class="producto electrica ficha" id="">
+                <div>
+                    <span class="promo">Casco y candado incluidos</span>
+                    <img src="imagenes/Engwe-imagen.jpg" alt="ENGWE L20 3.0 Pro">
+                </div>
+                <div>
+                    <p class="title">ENGWE L20 3.0 Pro Bicicleta eléctrica para Adultos</p>
+                    <p class="precio">12€ <span>/por día</span></p>
+                    <p>Cargador Rápido de 8A, Tarda Solo 2 horas, Batería de 48V 15Ah con una Hasta 160KM, APP y IoT con sensor de par</p>
+                </div>
+            </div>
+
+            <!-- Producto 6: Urbana -->
+            <div class="producto urbana ficha" id="">
+                <div>
+                    <span class="promo">Casco y candado incluidos</span>
+                    <img src="imagenes/baby-bici.jpg" alt="Sun baby Heart Bike">
+                </div>
+                <div>
+                    <p class="title">Sun baby Heart Bike Bicicleta Infantil 20 Pulgadas 6 Velocidades</p>
+                    <p class="precio">12€ <span>/por día</span></p>
+                    <p>7 MARCHAS SHIMANO 🚴‍♀️ Equipada con un sistema de 7 velocidades con puño giratorio, la Heart Bike permite cambiar de marcha fácilmente, lo que es perfecto para diferentes rutas y terrenos. El niño puede cambiar de marcha sin necesidad de detenerse, haciendo que la conducción sea más dinámica y agradable.</p>
+                </div>
+            </div>
+
+            <!-- Producto 7: Montaña -->
+            <div class="producto montana ficha" id="">
+                <div>
+                    <span class="promo">Casco y candado incluidos</span>
+                    <img src="imagenes/producto-casco.jpg" alt="Bici Montaña Giant">
+                </div>
+                <div>
+                    <p class="title">Bici Montaña : Giant 29″ – ANTHEM ADVANCED SL 0 2027</p>
+                    <p class="precio">12€ <span>/por día</span></p>
+                    <p>Lapierre XR 10.9 – 29″ Bicicleta de montaña de carbono – 2027 – translucent hex blue Lapierre XR 10.9 – Diseñado para el campo a través. El cross-country ha experimentado una transformación fundamental en los últimos años.</p>
+                </div>
+            </div>
+
+            <!-- Producto 8: Eléctrica -->
+            <div class="producto electrica ficha" id="">
+                <div>
+                    <span class="promo">Casco y candado incluidos</span>
+                    <img src="imagenes/Engwe-imagen.jpg" alt="ENGWE L20 3.0 Pro">
+                </div>
+                <div>
+                    <p class="title">ENGWE L20 3.0 Pro Bicicleta eléctrica para Adultos</p>
+                    <p class="precio">12€ <span>/por día</span></p>
+                    <p>Cargador Rápido de 8A, Tarda Solo 2 horas, Batería de 48V 15Ah con una Hasta 160KM, APP y IoT con sensor de par</p>
+                </div>
+            </div>
+
+            <!-- Producto 9: Urbana -->
+            <div class="producto urbana ficha" id="">
+                <div>
+                    <span class="promo">Casco y candado incluidos</span>
+                    <img src="imagenes/baby-bici.jpg" alt="Sun baby Heart Bike">
+                </div>
+                <div>
+                    <p class="title">Sun baby Heart Bike Bicicleta Infantil 20 Pulgadas 6 Velocidades</p>
+                    <p class="precio">12€ <span>/por día</span></p>
+                    <p>7 MARCHAS SHIMANO 🚴‍♀️ Equipada con un sistema de 7 velocidades con puño giratorio, la Heart Bike permite cambiar de marcha fácilmente, lo que es perfecto para diferentes rutas y terrenos. El niño puede cambiar de marcha sin necesidad de detenerse, haciendo que la conducción sea más dinámica y agradable.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article class="alq-inferior">
+        <!-- Contenido inferior opcional -->
+    </article>
+
+    <!-- Botón avance página -->
+    <div class="iconofooter avance">
+        <a href="taller.html" class="atras">
+            <img src="imagenes/btnatras.png" alt="Atrás">
+        </a>
+        <a href="#" class="iconofooter sube">
+            <img src="imagenes/sube.png" alt="Sube arriba página">
+        </a>
+        <a href="contacto.html" class="siguiente">
+            <img src="imagenes/btnadelante.png" title="adelante" alt="Siguiente página taller">
+        </a>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="piepagina">
+        <div>
+        <div class="lista">
+            <ul>
+                <li>BICICLETAS LA CADENA</li>
+                <li>Rosendo Alonso, mecánico de bicicletas</li>
+                <li>DIRECCIÓN: <br>
+                    Calle molino 14, bajo. <br>
+                    Villanueva del Monte <br>
+                    <span>Pueblo de montaña con rutas cercanas</span>
+                </li>
+                <li>TELF: 600 00 00 00</li>
+                <li><a href="https://www.instagram.com/lacadena.bicis/" class="linka">@lacadena.bicis de Laura</a></li>
+                <li><a href="mailto:hola@lacadena.example" class="linka">hola@lacadena.example</a></li>
+            </ul>
+           <iframe src="https://www.google.com/maps/embed?pb=!4v1792434765662!6m8!1m7!1sSJei8lEUg4yU_cuSz9PCFw!2m2!1d43.36310241650589!2d-5.8460249753354!3f77.471596!4f0!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" class="map"></iframe>
+        </div>
+        <div class="imagen-logo">
+            <img src="imagenes/nuevologo.png" alt="logo">        
+        </div>
+        </div>
+        <div class="copy-vertical">
+            <p>&copy; 2026 — Eli, Rubén &amp; Luis. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/alquiler.js"></script>
+    <script src="js/tema-oscuro.js"></script>
+</body>
+
+</html>

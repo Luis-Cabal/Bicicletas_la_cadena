@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fffaf3">
+    <meta name="description" content="Contacta con AudioLibro. Comparte tus dudas, ideas y sugerencias con nosotros.">
+    <title>🚲 Contacto</title>
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/comun.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <!--Trabajo realizado por ELI-->
+
+        <header class="cabecera">
+            <img src="imagenes/banertaller.jpg" title="tallerbicicletas" alt="taller bicis alquiler rosendo"
+                class="banner">
+
+            <nav class="menu-navegacion">
+                <div class="redes">
+                    <a href="https://wa.me/600000000?text=Hola" target="_blank"><img src="imagenes/whatsapp.png"
+                            alt="whatsapp_bici" class="whatsaap"></a>
+                    <a href="https://www.instagram.com/lacadena.bicis/" target="_blank"><img
+                            src="imagenes/instagram.png" alt="instagram" class="instagram"></a>
+                </div>
+                <div class="button">
+                    <a href="formulario.html" style="text-decoration: none;">
+                        <button type="button" class="btn-presupuesto">PIDE PRESUPUESTO SIN LLAMAR</button></a>
+                </div>
+                <div class="enlaces">
+                    <a href="index.html"><img src="imagenes/inicio.png" alt="Inicio" class="icono inicio"></a>
+                    <a href="taller.html" target="_blank"><img src="imagenes/taller.png" alt="Taller"
+                            class="icono taller"></a>
+                    <a href="alquiler.html" target="_blank"><img src="imagenes/alquiler.png" alt="Alquiler"
+                            class="icono alquiler"></a>
+                    <a href="#" target="_blank"><img src="imagenes/contactos.png" alt="Contactos"
+                            class="icono contactos"></a>
+                </div>
+            </nav>
+
+        </header>
+        <section class="portada-contacto" aria-labelledby="titulo-contacto"></section>
+        </section>
+        <section class="contacto" aria-labelledby="titulo-formulario">
+            <div class="encabezado-formulario">
+                <div class="logo">
+                    <img class="imagen-logo" src="imagenes/nuevologo.png">
+                </div><br><br>
+                <form id="miFormulario" action="contacto.html" method="post">
+                    <label form="name">👤Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Introduce tu nombre"
+                        size="50"><br><br>
+                    <label form="name">📍Dirección:</label>
+                    <input type="text" id="direccion" name="direccion" required placeholder="Introduce tu dirección"
+                        size="50"><br><br>
+                    <label for="correo">📧Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required placeholder="prueba@gmail.com"
+                        size="40"><br><br>
+                    <label form="name">☎ Teléfono o WhatsApp:</label>
+                    <input type="tel" id="telefono" name="telefono" required placeholder="Introduce tu telefóno"
+                        minlength="9" maxlength="9" size="40"><br><br>
+                    <!--Campo selección única-->
+                    <label for=""><span style="color: red;">*</span>¿Qué opinas de la marca que ofrece Bicicletas la
+                        Cadena? </label><br><br>
+                    <input type="radio" id="opcion1"> Buena <br><br>
+                    <input type="radio" id="opcion2"> Regular <br><br>
+                    <input type="radio" id="opcion3"> No recomendada <br><br>
+                    <button class="btnBoton" type="button" id="btnLimpiar">Limpiar selección</button><br><br>
+                    <label for="name">Observaciones:</label><br><br>
+                    <textarea id="mensaje" name="mensaje" rows="8" cols="60"
+                        placeholder="Escribe aquí tu mensaje"></textarea><br><br>
+                    <button class="btnFormulario" type="submit">Enviar formulario</button>
+                </form>
+            </div>
+            <br>
+            <div class="marco-formulario">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!4v1792434765662!6m8!1m7!1sSJei8lEUg4yU_cuSz9PCFw!2m2!1d43.36310241650589!2d-5.8460249753354!3f77.471596!4f0!5f0.7820865974627469"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            <br>
+            <div class="horario">
+                <table>
+                    <caption>HORARIO DE APERTURA</caption>
+                    <thead>
+                        <tr>
+                            <th>DÍAS</th>
+                            <th>HORAS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Martes a Viernes</td>
+                            <td>De 9:30 a 13:30 y de 16:30 a 20:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sábados</td>
+                            <td>De 10:00 a 14:00</td>
+                        </tr>
+                        <tr>
+                            <td>Lunes y Domingos</td>
+                            <td>Cerrado</td>
+                        </tr>
+                </table>
+            </div>
+        </section>
+        <div class="volver-inicio"><a class="boton" href="#"></a></div>
+    </main>
+
+    <!-- boton avance paguina-->
+    <div class="iconofooter avance">
+        <a href="alquiler.html" alt="atras" class="atras">
+            <img src="imagenes/btnatras.png" alt="">
+        </a>
+        <a href="#" class="iconofooter sube">
+            <img src="imagenes/sube.png" alt="sube arriba pagina">
+        </a>
+        <a href="index.html" class="siguiente">
+            <img src="imagenes/btnadelante.png" title="adelante" alt="siguiente pagina taller">
+        </a>
+
+    </div>
+
+
+
+    <!-- pie de pagguina -->
+
+    <footer class="piepagina">
+        <div>
+            <div class="lista">
+                <ul>
+                    <li>BICICLETAS LA CADENA</li>
+                    <li>Rosendo Alonso, mecánico de bicicletas</li>
+                    <li> DIRECCION: <br>
+                        Calle molino 14, bajo. <br>
+                        Villanueva del Monte <br>
+                        <span>Pueblo de montaña con rutas cercanas</span>
+                    </li>
+                    <li>TELF: 600 00 00 00</li><br>
+                    <li> <a href="https://www.instagram.com/lacadena.bicis/" class="linka">@lacadena.bicis de Laura</a>
+                    </li><br>
+                    <li><a href="mailto:hola@lacadena.example" class="linka">hola@lacadena.example</a></li><br>
+                </ul>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!4v1792434765662!6m8!1m7!1sSJei8lEUg4yU_cuSz9PCFw!2m2!1d43.36310241650589!2d-5.8460249753354!3f77.471596!4f0!5f0.7820865974627469"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin" class="map"></iframe>
+            </div>
+            <div class="imagen-logo">
+                <img src="imagenes/nuevologo.png" alt="logo">
+            </div>
+        </div>
+        <div class="copy-vertical">
+            <p>&copy; 2026 — Eli, Rubén &amp; Luis. Todos los derechos reservados.</p>
+        </div>
+
+    </footer>
+    <script src="js/contacto.js"></script>
+</body>
+
+</html>
